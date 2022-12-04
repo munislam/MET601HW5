@@ -1,0 +1,16 @@
+{
+    "Degree": [
+        {
+            "School": "Stony Brook University",
+            "Major": "Computer Engineering",
+            "Type": "BS",
+            "Year_conferred": "2020"
+        },
+        {    
+            "School": "Boston University",
+            "Major": "Software Development",
+            "Type": "MS",
+            "Year_conferred": "2023"
+        }
+    ]
+}

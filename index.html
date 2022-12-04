@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise</title>
+    <link rel="icon" href="./">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="stop-scrolling">
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Click to Fetch</h1>
+            <button class="secondary outline" type="submit" value="Submit" onclick="getDegrees()">Fetch</button>
+        </div>
+    </section>
+    <!-- Project Section -->
+    <section id="main">
+        <h1>Degrees:</h1>
+        <div class="text-box" id="text-box">
+            <p id="post-result"></p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <footer>
+        <section id="contact">
+            <div class="social-icons">
+                <a class="fab fa-github" href="https://github.com/munthasir" target="_blank"></a>
+                <a class="fab fa-linkedin" href="https://www.linkedin.com/in/munthasir-islam/" target="_blank"></a>
+            </div>
+        </section>
+    </footer>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
